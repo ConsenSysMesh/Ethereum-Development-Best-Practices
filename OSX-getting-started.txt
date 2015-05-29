@@ -1,0 +1,19 @@
+Up-and-running with Ethereum and AlethZero on OS X.
+
+1. Install homebrew (a package manager) by entering this command in Terminal (or your preferred command line client).
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Hint: The “$” symbol just delimits the command, don’t actually type it.
+
+2. Run these commands (to make sure Homebrew itself is up-to-date):
+$ brew update
+$ brew upgrade —all
+
+3. Now these (to install Ethereum and AlethZero):
+$ brew tap ethereum/ethereum
+$ brew install cpp-ethereum —--with-gui
+$ brew linkapps cpp-ethereum
+
+Hint: the install step might take a very long time if qt5 isn’t already installed. Like, hours. Maybe leave your computer on overnight.
+
+AlethZero should now be available in your Applications folder (and typing “eth” in the command line will start the cpp-ethereum command line interface).
