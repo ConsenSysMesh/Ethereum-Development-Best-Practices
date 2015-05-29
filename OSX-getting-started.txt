@@ -17,3 +17,5 @@ $ brew linkapps cpp-ethereum
 Hint: the install step might take a very long time if qt5 isn’t already installed. Like, hours. Maybe leave your computer on overnight.
 
 AlethZero should now be available in your Applications folder (and typing “eth” in the command line will start the cpp-ethereum command line interface).
+
+In the future, repeating step 2 will update your cpp-ethereum install to the latest stable version at any time.
